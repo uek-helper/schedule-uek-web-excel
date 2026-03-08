@@ -1,0 +1,27 @@
+name: Update Live Schedule
+on:
+  schedule:
+    - cron: '0 5 * * *' # Runs every day at 5 AM UTC (6 AM Poland)
+  workflow_dispatch: # Allows you to run it manually to test
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: pip install requests beautifulsoup4 pandas
+      - name: Run Scraper
+        env:
+          UEK_LOGIN: ${{ secrets.UEK_LOGIN }}
+          UEK_PASSWORD: ${{ secrets.UEK_PASSWORD }}
+        run: python tracker.py
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add live_schedule.csv
+          git commit -m "Automated schedule update" || exit 0
+          git push
