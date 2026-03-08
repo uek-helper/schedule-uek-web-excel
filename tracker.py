@@ -1,43 +1,107 @@
 import os
+import json
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
-def scrape_to_csv(id, user, pw, is_lecturer=False):
+def scrape_data(id, username, password, is_lecturer=False):
     session = requests.Session()
-    session.auth = (user, pw)
+    session.auth = (username, password)
     type_char = 'N' if is_lecturer else 'G'
     url = f"https://planzajec.uek.krakow.pl/index.php?typ={type_char}&id={id}&okres=2"
     
     response = session.get(url)
+    if response.status_code == 401:
+        return None
+    
     response.encoding = 'utf-8' 
     soup = BeautifulSoup(response.text, 'html.parser')
     
-    data = []
-    rows = soup.find_all('tr')
-    for row in rows[1:]:
-        cols = row.find_all('td')
-        if len(cols) >= 5:
-            # Basic parsing logic
-            res = {
-                "Date": cols[0].text.strip(),
-                "Time": cols[1].text.strip().split('(')[0].strip(),
-                "Subject": cols[2].text.strip(),
-                "Type": cols[3].text.strip(),
-                "Location": cols[5].text.strip() if not is_lecturer and len(cols) >= 6 else cols[4].text.strip()
-            }
-            data.append(res)
+    excel_data = []
+    table_rows = soup.find_all('tr')
     
-    if data:
-        df = pd.DataFrame(data)
-        # utf-8-sig is the "magic" encoding that makes Excel open Polish letters correctly
-        df.to_csv("live_schedule.csv", index=False, encoding='utf-8-sig')
-        print("Schedule updated successfully.")
+    for row in table_rows[1:]:
+        columns = row.find_all('td')
+        
+        if len(columns) >= 5: 
+            date_str = columns[0].text.strip()
+            if not date_str: continue 
+            
+            teacher = ""
+            group = ""
+            location = ""
+            day_of_week = ""
+            start = ""
+            end = ""
+            
+            # --- START OF YOUR SPECIFIC COLUMN LOGIC ---
+            if not is_lecturer and len(columns) >= 6:
+                teacher = columns[4].text.strip()
+                location = columns[5].text.strip()
+            elif is_lecturer and len(columns) >= 6:
+                location = columns[4].text.strip()
+                group = columns[5].text.strip()
+            elif is_lecturer and len(columns) == 5:
+                location = columns[4].text.strip()
+            # --- END OF YOUR SPECIFIC COLUMN LOGIC ---
+            
+            raw_time = columns[1].text.strip() 
+            clean_time = raw_time.split('(')[0].strip() 
+            
+            if " " in clean_time:
+                day_of_week, time_range = clean_time.split(' ', 1)
+            else:
+                time_range = clean_time
+                
+            if "-" in time_range:
+                start, end = time_range.split('-', 1)
+            else:
+                start = time_range
+
+            entry = {
+                "Date": date_str,
+                "Day": day_of_week,
+                "Starting": start.strip(),
+                "Ending": end.strip(),
+                "Subject": columns[2].text.strip(),
+                "Type": columns[3].text.strip(),
+                "Location": location
+            }
+            
+            if is_lecturer:
+                entry["Group"] = group
+            else:
+                entry["Teacher"] = teacher
+                
+            excel_data.append(entry)
+            
+    return excel_data
 
 if __name__ == "__main__":
-    # Get secrets from GitHub environment
+    # Get credentials from GitHub Secrets
     LOGIN = os.getenv("UEK_LOGIN")
     PASSWORD = os.getenv("UEK_PASSWORD")
-    MY_ID = "252671" # <--- Put your UEK ID here
     
-    scrape_to_csv(MY_ID, LOGIN, PASSWORD)
+    # Configuration
+    TARGET_ID = "252671"  # Change this to your student ID
+    IS_LECTURER = False   # Set to True if you are tracking a lecturer's plan
+    
+    new_schedule = scrape_data(TARGET_ID, LOGIN, PASSWORD, IS_LECTURER)
+    
+    if new_schedule:
+        # 1. Save CSV for Live Excel Link (UTF-8-SIG for Polish characters)
+        df = pd.DataFrame(new_schedule)
+        df.to_csv("live_schedule.csv", index=False, encoding='utf-8-sig')
+        
+        # 2. Change Detection (Optional - Pings you if schedule updates)
+        cache_file = "last_known_state.json"
+        if os.path.exists(cache_file):
+            with open(cache_file, "r", encoding="utf-8") as f:
+                old_schedule = json.load(f)
+                if old_schedule != new_schedule:
+                    print("Schedule changed! (Insert Telegram/Discord alert here if desired)")
+        
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(new_schedule, f, ensure_ascii=False, indent=4)
+        
+        print("Live CSV updated.")
