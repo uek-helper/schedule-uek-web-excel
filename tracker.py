@@ -41,7 +41,7 @@ def scrape_data(id, username, password, is_lecturer=False):
                 import re
                 time_match = re.search(r'(\d{1,2}:\d{2})', moved_note.text)
                 if time_match:
-                start = time_match.group(1)
+                    start = time_match.group(1)
 
             # If no 'moved' time was found, use the standard column time
             if not start:
