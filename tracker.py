@@ -37,17 +37,11 @@ def scrape_data(id, username, password, is_lecturer=False):
             day_of_week = ""
 
             # Check if there is a 'moved to' note in the subject area
-            if moved_note and "przeniesione na godz." in moved_note.text:
-                try:
-                    # Extract the time (e.g., 18:30) from the note
-                    new_time = moved_note.text.split("godz.")[-1].strip()
-                    start = new_time
-                    # Assuming 1.5h standard duration if end time isn't listed
-                    from datetime import datetime, timedelta
-                    start_dt = datetime.strptime(start, "%H:%M")
-                    end = (start_dt + timedelta(minutes=90)).strftime("%H:%M")
-                except:
-                    pass
+            if moved_note and "godz." in moved_note.text:
+                import re
+                time_match = re.search(r'(\d{1,2}:\d{2})', moved_note.text)
+                if time_match:
+                start = time_match.group(1)
 
             # If no 'moved' time was found, use the standard column time
             if not start:
