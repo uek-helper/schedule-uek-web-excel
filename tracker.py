@@ -27,14 +27,46 @@ def scrape_data(id, username, password, is_lecturer=False):
             date_str = columns[0].text.strip()
             if not date_str: continue 
             
+            # --- NEW LOGIC: CHECK FOR MOVED CLASS NOTES ---
+            # Search for text like "Zajęcia przeniesione na godz. 18:30"
+            raw_time_cell = columns[1].text.strip()
+            moved_note = columns[2].find('font', color='#008000') # Green text in Subject cell
+            
+            start = ""
+            end = ""
+            day_of_week = ""
+
+            # Check if there is a 'moved to' note in the subject area
+            if moved_note and "przeniesione na godz." in moved_note.text:
+                try:
+                    # Extract the time (e.g., 18:30) from the note
+                    new_time = moved_note.text.split("godz.")[-1].strip()
+                    start = new_time
+                    # Assuming 1.5h standard duration if end time isn't listed
+                    from datetime import datetime, timedelta
+                    start_dt = datetime.strptime(start, "%H:%M")
+                    end = (start_dt + timedelta(minutes=90)).strftime("%H:%M")
+                except:
+                    pass
+
+            # If no 'moved' time was found, use the standard column time
+            if not start:
+                clean_time = raw_time_cell.split('(')[0].strip() 
+                if " " in clean_time:
+                    day_of_week, time_range = clean_time.split(' ', 1)
+                else:
+                    time_range = clean_time
+                    
+                if "-" in time_range:
+                    start, end = time_range.split('-', 1)
+                else:
+                    start = time_range
+
+            # Determine Location and Teacher/Group
             teacher = ""
             group = ""
             location = ""
-            day_of_week = ""
-            start = ""
-            end = ""
             
-            # --- START OF YOUR SPECIFIC COLUMN LOGIC ---
             if not is_lecturer and len(columns) >= 6:
                 teacher = columns[4].text.strip()
                 location = columns[5].text.strip()
@@ -43,27 +75,13 @@ def scrape_data(id, username, password, is_lecturer=False):
                 group = columns[5].text.strip()
             elif is_lecturer and len(columns) == 5:
                 location = columns[4].text.strip()
-            # --- END OF YOUR SPECIFIC COLUMN LOGIC ---
-            
-            raw_time = columns[1].text.strip() 
-            clean_time = raw_time.split('(')[0].strip() 
-            
-            if " " in clean_time:
-                day_of_week, time_range = clean_time.split(' ', 1)
-            else:
-                time_range = clean_time
-                
-            if "-" in time_range:
-                start, end = time_range.split('-', 1)
-            else:
-                start = time_range
 
             entry = {
                 "Date": date_str,
                 "Day": day_of_week,
                 "Starting": start.strip(),
                 "Ending": end.strip(),
-                "Subject": columns[2].text.strip(),
+                "Subject": columns[2].text.strip().split('\n')[0], # Clean subject from notes
                 "Type": columns[3].text.strip(),
                 "Location": location
             }
