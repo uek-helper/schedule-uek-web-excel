@@ -1,0 +1,2232 @@
+[
+    {
+        "Date": "2026-02-23",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-02-23",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-02-23",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-02-24",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-02-24",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-02-24",
+        "Day": "Wt",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Probability and Statistics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-02-24",
+        "Day": "Wt",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Grzegorz Kosiorowski"
+    },
+    {
+        "Date": "2026-02-24",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-02-25",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-02-26",
+        "Day": "Cz",
+        "Starting": "08:00",
+        "Ending": "09:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-02-26",
+        "Day": "Cz",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Information Systems",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Agnieszka Niklewicz"
+    },
+    {
+        "Date": "2026-02-26",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-02-26",
+        "Day": "Cz",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-03-02",
+        "Day": "Pn",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Computer Programming 2",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-03-02",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-02",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-03-02",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-03",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-03-03",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-03",
+        "Day": "Wt",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "wykład",
+        "Location": "Paw.C sala D",
+        "Teacher": "dr Grzegorz Kosiorowski"
+    },
+    {
+        "Date": "2026-03-03",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-03-04",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-04",
+        "Day": "Śr",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Information Systems",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Mariusz Grabowski"
+    },
+    {
+        "Date": "2026-03-05",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "14:45",
+        "Subject": "",
+        "Type": "rezerwacja",
+        "Location": "",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-05",
+        "Day": "Cz",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-03-09",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-09",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-03-09",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-10",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-03-10",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-10",
+        "Day": "Wt",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Probability and Statistics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-03-10",
+        "Day": "Wt",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Grzegorz Kosiorowski"
+    },
+    {
+        "Date": "2026-03-10",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-03-11",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-12",
+        "Day": "Cz",
+        "Starting": "08:00",
+        "Ending": "09:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-03-12",
+        "Day": "Cz",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Information Systems",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Agnieszka Niklewicz"
+    },
+    {
+        "Date": "2026-03-12",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-12",
+        "Day": "Cz",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-03-16",
+        "Day": "Pn",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Computer Programming 2",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-03-16",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-16",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-03-16",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-17",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-03-17",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-17",
+        "Day": "Wt",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Information Systems",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Agnieszka Niklewicz"
+    },
+    {
+        "Date": "2026-03-17",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-03-18",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-18",
+        "Day": "Śr",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Information Systems",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Mariusz Grabowski"
+    },
+    {
+        "Date": "2026-03-18",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.U sala N",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-03-19",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-19",
+        "Day": "Cz",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-03-19",
+        "Day": "Cz",
+        "Starting": "16:45",
+        "Ending": "18:15",
+        "Subject": "Information Systems",
+        "Type": "ćwiczenia",
+        "Location": "Bibl.425",
+        "Teacher": "mgr inż. Justyna Olczak"
+    },
+    {
+        "Date": "2026-03-23",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-23",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-03-23",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-24",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-03-24",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-24",
+        "Day": "Wt",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Probability and Statistics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-03-24",
+        "Day": "Wt",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Grzegorz Kosiorowski"
+    },
+    {
+        "Date": "2026-03-24",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-03-25",
+        "Day": "Śr",
+        "Starting": "09:45",
+        "Ending": "13:00",
+        "Subject": "",
+        "Type": "rezerwacja",
+        "Location": "",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-25",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.U sala N",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-03-26",
+        "Day": "Cz",
+        "Starting": "08:00",
+        "Ending": "09:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-03-26",
+        "Day": "Cz",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Information Systems",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Agnieszka Niklewicz"
+    },
+    {
+        "Date": "2026-03-26",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "16:30",
+        "Subject": "",
+        "Type": "rezerwacja",
+        "Location": "",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-30",
+        "Day": "Pn",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Computer Programming 2",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-03-30",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-30",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-03-30",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-31",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-03-31",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-03-31",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-04-01",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-01",
+        "Day": "Śr",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Information Systems",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Mariusz Grabowski"
+    },
+    {
+        "Date": "2026-04-01",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.U sala N",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-04-08",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-08",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.U sala N",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-04-09",
+        "Day": "Cz",
+        "Starting": "08:00",
+        "Ending": "09:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-04-09",
+        "Day": "Cz",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Information Systems",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Agnieszka Niklewicz"
+    },
+    {
+        "Date": "2026-04-09",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-09",
+        "Day": "Cz",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-04-09",
+        "Day": "Cz",
+        "Starting": "16:45",
+        "Ending": "18:15",
+        "Subject": "Information Systems",
+        "Type": "ćwiczenia",
+        "Location": "Bibl.425",
+        "Teacher": "mgr inż. Justyna Olczak"
+    },
+    {
+        "Date": "2026-04-13",
+        "Day": "Pn",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Computer Programming 2",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-04-13",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-13",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-04-13",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-14",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-04-14",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-14",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-04-15",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-15",
+        "Day": "Śr",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Information Systems",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Mariusz Grabowski"
+    },
+    {
+        "Date": "2026-04-15",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.U sala N",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-04-16",
+        "Day": "Cz",
+        "Starting": "08:00",
+        "Ending": "09:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "wykład",
+        "Location": "Paw.F 106",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-04-16",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-16",
+        "Day": "Cz",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-04-16",
+        "Day": "Cz",
+        "Starting": "16:45",
+        "Ending": "18:15",
+        "Subject": "Information Systems",
+        "Type": "ćwiczenia",
+        "Location": "Bibl.425",
+        "Teacher": "mgr inż. Justyna Olczak"
+    },
+    {
+        "Date": "2026-04-20",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-20",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-04-20",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-21",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-04-21",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-21",
+        "Day": "Wt",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Probability and Statistics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-04-21",
+        "Day": "Wt",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Grzegorz Kosiorowski"
+    },
+    {
+        "Date": "2026-04-21",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-04-22",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-22",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.U sala N",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-04-23",
+        "Day": "Cz",
+        "Starting": "08:00",
+        "Ending": "09:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-04-23",
+        "Day": "Cz",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Information Systems",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Agnieszka Niklewicz"
+    },
+    {
+        "Date": "2026-04-23",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-23",
+        "Day": "Cz",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-04-23",
+        "Day": "Cz",
+        "Starting": "16:45",
+        "Ending": "18:15",
+        "Subject": "Information Systems",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "mgr inż. Justyna Olczak"
+    },
+    {
+        "Date": "2026-04-27",
+        "Day": "Pn",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Computer Programming 2",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-04-27",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-27",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-04-27",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-28",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-04-28",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-28",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-04-29",
+        "Day": "Śr",
+        "Starting": "08:00",
+        "Ending": "09:30",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-04-29",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-29",
+        "Day": "Śr",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Information Systems",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Mariusz Grabowski"
+    },
+    {
+        "Date": "2026-04-29",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.U sala N",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-04-30",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-04-30",
+        "Day": "Cz",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "link do zajęć",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-04-30",
+        "Day": "Cz",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "link do zajęć",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-05-04",
+        "Day": "Pn",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Computer Programming 2",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-05-04",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-04",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-05-04",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-05",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-05-05",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-05",
+        "Day": "Wt",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Probability and Statistics",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-05-05",
+        "Day": "Wt",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Grzegorz Kosiorowski"
+    },
+    {
+        "Date": "2026-05-05",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-05-06",
+        "Day": "Śr",
+        "Starting": "08:00",
+        "Ending": "09:30",
+        "Subject": "Probability and Statistics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 118 lab. Win10, Office21",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-05-06",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-06",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.U sala N",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-05-07",
+        "Day": "Cz",
+        "Starting": "08:00",
+        "Ending": "09:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "wykład",
+        "Location": "link do zajęć",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-05-07",
+        "Day": "Cz",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Information Systems",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Agnieszka Niklewicz"
+    },
+    {
+        "Date": "2026-05-07",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-07",
+        "Day": "Cz",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-05-07",
+        "Day": "Cz",
+        "Starting": "16:45",
+        "Ending": "18:15",
+        "Subject": "Information Systems",
+        "Type": "ćwiczenia",
+        "Location": "Bibl.425",
+        "Teacher": "mgr inż. Justyna Olczak"
+    },
+    {
+        "Date": "2026-05-11",
+        "Day": "Pn",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Computer Programming 2",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-05-11",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-11",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-05-11",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-12",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-05-12",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-12",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-05-13",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-13",
+        "Day": "Śr",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Information Systems",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Mariusz Grabowski"
+    },
+    {
+        "Date": "2026-05-13",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.U sala N",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-05-14",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-14",
+        "Day": "Cz",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.B 058 (KSB)",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-05-14",
+        "Day": "Cz",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-05-14",
+        "Day": "Cz",
+        "Starting": "16:45",
+        "Ending": "18:15",
+        "Subject": "Information Systems",
+        "Type": "ćwiczenia",
+        "Location": "Bibl.425",
+        "Teacher": "mgr inż. Justyna Olczak"
+    },
+    {
+        "Date": "2026-05-15",
+        "Day": "Pt",
+        "Starting": "09:45",
+        "Ending": "12:15",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia zdalne",
+        "Location": "link do zajęć",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-05-18",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-18",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-05-18",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-19",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-05-19",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-19",
+        "Day": "Wt",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Probability and Statistics",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-05-19",
+        "Day": "Wt",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Grzegorz Kosiorowski"
+    },
+    {
+        "Date": "2026-05-19",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-05-20",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-20",
+        "Day": "Śr",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 014 lab. Win8.1 Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-05-20",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.U sala N",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-05-21",
+        "Day": "Cz",
+        "Starting": "08:00",
+        "Ending": "09:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-05-21",
+        "Day": "Cz",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Information Systems",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Agnieszka Niklewicz"
+    },
+    {
+        "Date": "2026-05-21",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-21",
+        "Day": "Cz",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.F 614",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-05-21",
+        "Day": "Cz",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-05-21",
+        "Day": "Cz",
+        "Starting": "16:45",
+        "Ending": "18:15",
+        "Subject": "Information Systems",
+        "Type": "ćwiczenia",
+        "Location": "Bibl.425",
+        "Teacher": "mgr inż. Justyna Olczak"
+    },
+    {
+        "Date": "2026-05-25",
+        "Day": "Pn",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Computer Programming 2",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-05-25",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-25",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-05-25",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-26",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-05-26",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-26",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-05-27",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-05-27",
+        "Day": "Śr",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Information Systems",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Mariusz Grabowski"
+    },
+    {
+        "Date": "2026-05-27",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.U sala N",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-06-01",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-06-01",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-06-01",
+        "Day": "Pn",
+        "Starting": "16:45",
+        "Ending": "18:15",
+        "Subject": "Probability and Statistics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 301a lab.Win10, Office21",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-06-01",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-06-02",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-06-02",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-06-02",
+        "Day": "Wt",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Probability and Statistics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-06-02",
+        "Day": "Wt",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Grzegorz Kosiorowski"
+    },
+    {
+        "Date": "2026-06-02",
+        "Day": "Wt",
+        "Starting": "15:00",
+        "Ending": "15:45",
+        "Subject": "Discrete mathematics",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Grzegorz Kosiorowski"
+    },
+    {
+        "Date": "2026-06-02",
+        "Day": "Wt",
+        "Starting": "16:45",
+        "Ending": "18:15",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.B 251",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-06-02",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-06-03",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-06-03",
+        "Day": "Śr",
+        "Starting": "13:15",
+        "Ending": "14:45",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 014 lab. Win8.1 Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-06-03",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Discrete mathematics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.U sala N",
+        "Teacher": "dr Igor Sikora"
+    },
+    {
+        "Date": "2026-06-08",
+        "Day": "Pn",
+        "Starting": "09:45",
+        "Ending": "10:30",
+        "Subject": "Computer Programming 2",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-06-08",
+        "Day": "Pn",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-06-08",
+        "Day": "Pn",
+        "Starting": "13:15",
+        "Ending": "15:45",
+        "Subject": "Computer Programming 2",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "dr Katarzyna Wójcik"
+    },
+    {
+        "Date": "2026-06-08",
+        "Day": "Pn",
+        "Starting": "16:45",
+        "Ending": "18:15",
+        "Subject": "Information Systems",
+        "Type": "ćwiczenia zdalne",
+        "Location": "link do zajęć",
+        "Teacher": "mgr inż. Justyna Olczak"
+    },
+    {
+        "Date": "2026-06-08",
+        "Day": "Pn",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-06-09",
+        "Day": "Wt",
+        "Starting": "08:00",
+        "Ending": "09:30",
+        "Subject": "Probability and Statistics",
+        "Type": "Przeniesienie zajęć",
+        "Location": "Paw.A 013 lab. Win10, Office21",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-06-09",
+        "Day": "Wt",
+        "Starting": "09:45",
+        "Ending": "11:15",
+        "Subject": "Probability and Statistics",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-06-09",
+        "Day": "Wt",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-06-09",
+        "Day": "Wt",
+        "Starting": "14:00",
+        "Ending": "14:45",
+        "Subject": "Probability and Statistics",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-06-09",
+        "Day": "Wt",
+        "Starting": "15:00",
+        "Ending": "15:45",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-06-09",
+        "Day": "Wt",
+        "Starting": "15:45",
+        "Ending": "16:30",
+        "Subject": "Information Systems",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Agnieszka Niklewicz"
+    },
+    {
+        "Date": "2026-06-09",
+        "Day": "Wt",
+        "Starting": "15:45",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "wykład zdalny",
+        "Location": "link do zajęć",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-06-09",
+        "Day": "Wt",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Business Law",
+        "Type": "wykład",
+        "Location": "Rakowicka 16 sala 11",
+        "Teacher": "dr Jacek Lachner"
+    },
+    {
+        "Date": "2026-06-10",
+        "Day": "Śr",
+        "Starting": "08:00",
+        "Ending": "09:30",
+        "Subject": "Probability and Statistics",
+        "Type": "wykład",
+        "Location": "Paw.C sala B",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-06-10",
+        "Day": "Śr",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-06-10",
+        "Day": "Śr",
+        "Starting": "13:15",
+        "Ending": "14:00",
+        "Subject": "Information Systems",
+        "Type": "wykład",
+        "Location": "Paw.F 008",
+        "Teacher": "prof. UEK dr hab. Mariusz Grabowski"
+    },
+    {
+        "Date": "2026-06-10",
+        "Day": "Śr",
+        "Starting": "15:00",
+        "Ending": "15:45",
+        "Subject": "Discrete mathematics",
+        "Type": "Przeniesienie zajęć",
+        "Location": "",
+        "Teacher": "dr Grzegorz Kosiorowski"
+    },
+    {
+        "Date": "2026-06-11",
+        "Day": "Cz",
+        "Starting": "09:45",
+        "Ending": "10:30",
+        "Subject": "Probability and Statistics",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. dr hab. Andrzej Sokołowski"
+    },
+    {
+        "Date": "2026-06-11",
+        "Day": "Cz",
+        "Starting": "11:30",
+        "Ending": "13:00",
+        "Subject": "Foreign Language I",
+        "Type": "lektorat",
+        "Location": "Wybierz swoją grupę językową",
+        "Teacher": ""
+    },
+    {
+        "Date": "2026-06-11",
+        "Day": "Cz",
+        "Starting": "15:00",
+        "Ending": "16:30",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-06-11",
+        "Day": "Cz",
+        "Starting": "16:45",
+        "Ending": "17:30",
+        "Subject": "Information Systems",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 014 lab. Win8.1 Office21",
+        "Teacher": "mgr inż. Justyna Olczak"
+    },
+    {
+        "Date": "2026-06-11",
+        "Day": "Cz",
+        "Starting": "18:30",
+        "Ending": "20:00",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "ćwiczenia",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-06-17",
+        "Day": "Śr",
+        "Starting": "10:30",
+        "Ending": "13:00",
+        "Subject": "Discrete mathematics",
+        "Type": "egzamin",
+        "Location": "Paw.C  Nowa Aula",
+        "Teacher": "dr Grzegorz Kosiorowski"
+    },
+    {
+        "Date": "2026-06-26",
+        "Day": "Pt",
+        "Starting": "10:30",
+        "Ending": "12:15",
+        "Subject": "Operating Systems and Computer Networks",
+        "Type": "egzamin",
+        "Location": "Paw.A 07 lab. Win7, Office21",
+        "Teacher": "prof. UEK dr hab. Joanna Wyrobek"
+    },
+    {
+        "Date": "2026-09-03",
+        "Day": "Cz",
+        "Starting": "10:30",
+        "Ending": "13:00",
+        "Subject": "Discrete mathematics",
+        "Type": "egzamin",
+        "Location": "Paw.F 102",
+        "Teacher": "dr Grzegorz Kosiorowski"
+    }
+]
