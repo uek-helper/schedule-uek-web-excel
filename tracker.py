@@ -3,7 +3,7 @@ import json
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
-from icalendar import Calendar, Event
+from icalendar import Calendar, Event, Timezone, TimezoneStandard, TimezoneDaylight
 from datetime import datetime, timedelta
 import pytz
 
@@ -93,62 +93,83 @@ def scrape_data(id, username, password, is_lecturer=False):
     return excel_data
 
 def save_as_icalendar(excel_data, filename="university_schedule.ics"):
-    # Create the calendar container
     cal = Calendar()
     cal.add('prodid', '-//UEK Schedule Helper//EN')
     cal.add('version', '2.0')
     
-    # Set the timezone for Krakow
-    local_tz = pytz.timezone('Europe/Warsaw')
+    # 1. --- FIX: EXPLICITLY DEFINE THE VTIMEZONE COMPONENT ---
+    tz = Timezone()
+    tz.add('tzid', 'Europe/Warsaw')
     
+    # Standard Time (CET) definition
+    tz_std = TimezoneStandard()
+    tz_std.add('tzname', 'CET')
+    tz_std.add('dtstart', datetime(1970, 10, 25, 3, 0, 0))
+    tz_std.add('rrule', {'freq': 'yearly', 'bymonth': 10, 'byday': '-1su'})
+    tz_std.add('tzoffsetfrom', timedelta(hours=2))
+    tz_std.add('tzoffsetto', timedelta(hours=1))
+    tz.add_component(tz_std)
+    
+    # Daylight Saving Time (CEST) definition
+    tz_dst = TimezoneDaylight()
+    tz_dst.add('tzname', 'CEST')
+    tz_dst.add('dtstart', datetime(1970, 3, 29, 2, 0, 0))
+    tz_dst.add('rrule', {'freq': 'yearly', 'bymonth': 3, 'byday': '-1su'})
+    tz_dst.add('tzoffsetfrom', timedelta(hours=1))
+    tz_dst.add('tzoffsetto', timedelta(hours=2))
+    tz.add_component(tz_dst)
+    
+    cal.add_component(tz)
+    
+    # Timezone object for localizing datetimes
+    local_tz = pytz.timezone('Europe/Warsaw')
+    # Current timestamp for the required DTSTAMP field
+    now_utc = datetime.now(pytz.utc)
+
     for entry in excel_data:
         try:
-            # Parse the date and time strings from your scraped data
-            # Expected date format: "2026-03-19"
             date_str = entry["Date"]
             start_time = entry["Starting"]
             end_time = entry["Ending"]
             
-            # Combine date and time strings into datetime objects
             start_dt = datetime.strptime(f"{date_str} {start_time}", "%Y-%m-%d %H:%M")
             end_dt = datetime.strptime(f"{date_str} {end_time}", "%Y-%m-%d %H:%M")
             
-            # Localize to Poland's timezone so daylight savings doesn't shift your classes
             start_dt = local_tz.localize(start_dt)
             end_dt = local_tz.localize(end_dt)
             
-            # Create a calendar event
             event = Event()
             
-            # Title format: "Information Systems (ćwiczenia)"
+            # 2. --- FIX: ADD REQUIRED RFC 5545 PROPERTIES ---
+            event.add('dtstamp', now_utc)  # Required: Generation time of this calendar file
+            
             event.add('summary', f"{entry['Subject']} ({entry['Type']})")
             event.add('dtstart', start_dt)
             event.add('dtend', end_dt)
             event.add('location', entry['Location'])
             
-            # Add the teacher's name to the description field
             if "Teacher" in entry:
                 event.add('description', f"Teacher: {entry['Teacher']}")
             elif "Group" in entry:
                 event.add('description', f"Group: {entry['Group']}")
                 
-            # Generate a unique ID for the event using the date and start time
-            uid = f"{date_str}_{start_time.replace(':', '')}@uek_helper"
-            event.add('uid', uid)
+            # Clean up the subject name to make it safe for a UID string (remove spaces/special characters)
+            clean_subject = "".join(filter(str.isalnum, entry['Subject']))[:10]
             
-            # Append the event to the calendar
+            # Combine Date, Start Time, and the shortened Subject name
+            uid = f"{date_str}_{start_time.replace(':', '')}_{clean_subject}@uek_helper"
+            event.add('uid', uid)
+    
             cal.add_component(event)
             
         except Exception as e:
             print(f"Skipping event due to error: {e}")
             continue
 
-    # Write the calendar data to a file
     with open(filename, 'wb') as f:
         f.write(cal.to_ical())
         
-    print(f"Successfully saved calendar to {filename}")
-
+    print(f"Successfully saved compliant calendar to {filename}")
 if __name__ == "__main__":
     # Get credentials from GitHub Secrets
     LOGIN = os.getenv("UEK_LOGIN")
@@ -172,4 +193,3 @@ if __name__ == "__main__":
             json.dump(new_schedule, f, ensure_ascii=False, indent=4)
         print("Live CSV updated.")
         save_as_icalendar(new_schedule)
-    
