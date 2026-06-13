@@ -179,7 +179,7 @@ if __name__ == "__main__":
     # Configuration
     TARGET_ID = "252681"  # Change this to your student ID
     IS_LECTURER = False   # Set to True if you are tracking a lecturer's plan
-    new_schedule = scrape_data(TARGET_ID, LOGIN, PASSWORD, IS_LECTURER)
+    new_schedule = scrape_data(TARGET_ID,  IS_LECTURER)
     if new_schedule:
         # 1. Save CSV for Live Excel Link (UTF-8-SIG for Polish characters)
         df = pd.DataFrame(new_schedule)
