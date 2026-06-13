@@ -7,7 +7,9 @@ from icalendar import Calendar, Event, Timezone, TimezoneStandard, TimezoneDayli
 from datetime import datetime, timedelta
 import pytz
 
-def scrape_data(id, username, password, is_lecturer=False):
+def scrape_data(id, is_lecturer=False):
+    username = os.getenv("UEK_LOGIN")
+    password = os.getenv("UEK_PASSWORD")
     session = requests.Session()
     session.auth = (username, password)
     type_char = 'N' if is_lecturer else 'G'
@@ -159,7 +161,6 @@ def save_as_icalendar(excel_data, filename="university_schedule.ics"):
             # Combine Date, Start Time, and the shortened Subject name
             uid = f"{date_str}_{start_time.replace(':', '')}_{clean_subject}@uek_helper"
             event.add('uid', uid)
-    
             cal.add_component(event)
             
         except Exception as e:
@@ -170,6 +171,7 @@ def save_as_icalendar(excel_data, filename="university_schedule.ics"):
         f.write(cal.to_ical())
         
     print(f"Successfully saved compliant calendar to {filename}")
+    
 if __name__ == "__main__":
     # Get credentials from GitHub Secrets
     LOGIN = os.getenv("UEK_LOGIN")
