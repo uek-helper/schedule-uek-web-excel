@@ -1,0 +1,3 @@
+[submodule "schedule-uek-web-excel"]
+	path = schedule-uek-web-excel
+	url = https://github.com/uek-helper/schedule-uek-web-excel
